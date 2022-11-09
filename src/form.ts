@@ -3,4 +3,3 @@ export interface Artwork{
     year: number;
     price: number;
 }
-

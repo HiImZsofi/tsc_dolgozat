@@ -1,4 +1,4 @@
-import type {Artwork} from './main';
+import type {Artwork} from './form';
 
 export class Statue implements Artwork{
     title: String;
