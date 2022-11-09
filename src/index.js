@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(isRight);
         if (isRight == 0) {
             statueList.push(new statue_1.Statue(statueName, creationYear, statuePrice, statueHeight));
-            alert("ok");
+            alert("A szobor hozzá lett adva!");
             osszesen++;
             ertek += statuePrice;
             let inputs = document.querySelectorAll("input");
